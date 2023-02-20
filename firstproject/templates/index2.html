@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>template is working</title>
+</head>
+<body>
+    <h1>welcome to the home page of my first django website</h1>
+    <form action='/analyzetxt' method="get">
+        <textarea name='text' style="width: 616px; height: 234px;""></textarea><br>
+        <br><input type="checkbox" name="removepunc">remove puntuation<br>
+        <input type="checkbox" name="fullcaps">UPPERCASE<br>
+        <input type="checkbox" name="nlremover">NEW LINE REMOVER<br>
+        <input type="checkbox" name="spaceremove">Space remover<br>
+        <input type="checkbox" name="charcout">character counter<br>
+        <button type='submit'>Analyze text</button>
+
+
+    </form>
+</body>
+</html>
